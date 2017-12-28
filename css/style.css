@@ -83,13 +83,13 @@ h2{
 
 .roofSlant {
 	border-bottom: 60px solid #1066a8;
-	border-left: 150px solid transparent;
-	border-right: 150px solid transparent;
+	border-left: 165px solid transparent;
+	border-right: 165px solid transparent;
 	height: 0;
 	width:0;
   position:relative;
   top:108px;
-  left:146px;
+  left:130px;
  
 }
 .roofUnSlant {
@@ -97,10 +97,10 @@ h2{
   border-bottom: 2px solid #1066a8;
   display:block;
   height:15px;
-  width:298px;
-   position:relative;
+  width:328px;
+  position:relative;
   top:185px;
-  left:130px;
+  left:115px;
   z-index:-1;
 }
 #littleBit{
@@ -110,7 +110,7 @@ h2{
  border-radius:5px 0 0 5px;
  height:55px; 
  width:15px;
- margin:23px 0px 0px -25px;
+ margin:23px 0px 0px -20px;
  Z-index:45; 
   
 }
@@ -135,7 +135,7 @@ h2{
  border-radius:0 5px 5px 0;
  height:55px; 
  width:15px;
- margin:23px 0 0 44px;
+ margin:23px 0 0 40px;
  Z-index:45;  
 }
 
@@ -146,7 +146,7 @@ h2{
  border-radius:5px 0px 0px 0;
  height:25px; 
  width:25px;
- margin:-80px 50px 0px 12px;
+ margin:-80px 50px 0px -20px;
  z-index:1; 
 }
 
@@ -157,7 +157,7 @@ h2{
  border-radius:0px 6px 0px 0px;
  height:25px; 
  width:25px;
- margin:-119px 30px 0px -5px;
+ margin:-108px 30px 0px -5px;
  z-index:1; 
 }
 .policeCall{
@@ -255,7 +255,7 @@ small{
   border-radius:6px 0 0 0;
   position:relative;
   left:1px;
-  top:8px;
+  top:10px;
   height:800px;
   width:40px;
   z-index:5px;
@@ -405,7 +405,7 @@ small{
   border-width: 5px;
   border-radius:0 6px 0 0;
   position: relative;
-  top:-760px;
+  top:-770px;
   left: 378px;
   height:600px;
   width:40px;
