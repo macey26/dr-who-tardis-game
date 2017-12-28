@@ -16,6 +16,11 @@ h2{
   
 }
 
+#wrapper{
+
+
+}
+
 #roofTop{
   position:relative;
   top:78px;
@@ -33,7 +38,7 @@ h2{
   top:122px;
   left:283px;
   height:5px;
-  width:38px;
+  width:27px;
   border-radius:4px 4px 0 0;
  
 }
@@ -47,7 +52,7 @@ h2{
   top:122px;
   left:282px;
   height:8px;
-  width:40px;
+  width:30px;
   padding-left:5px;
   z-index:10;
 }
@@ -58,7 +63,7 @@ h2{
   top:120px;
   left:284px;
   border: 3px solid #145788;
-  height:30px;
+  height:25px;
   width:25px;
   padding-left:5px;
 }
@@ -68,7 +73,7 @@ h2{
   border-color:#1066a8;
   display:block;
   height:15px;
-  width:40px;
+  width:30px;
   position:relative;
   top:120px;
   left:282px;
@@ -78,13 +83,13 @@ h2{
 
 .roofSlant {
 	border-bottom: 60px solid #1066a8;
-	border-left: 217px solid transparent;
-	border-right: 217px solid transparent;
+	border-left: 150px solid transparent;
+	border-right: 150px solid transparent;
 	height: 0;
 	width:0;
   position:relative;
-  top:109px;
-  left:90px;
+  top:108px;
+  left:146px;
  
 }
 .roofUnSlant {
@@ -92,10 +97,10 @@ h2{
   border-bottom: 2px solid #1066a8;
   display:block;
   height:15px;
-  width:432px;
+  width:298px;
    position:relative;
-  top:190px;
-  left:75px;
+  top:185px;
+  left:130px;
   z-index:-1;
 }
 #littleBit{
@@ -113,12 +118,12 @@ h2{
 #top{
   background-color: #0c4f83;
   border: 1px solid #1066a8;
-  height:125px;
-  width: 430px;
+  height:100px;
+  width: 298px;
   margin: 20px 0 0 0;
   position:relative;
   top:150px;
-  left:75px;
+  left:130px;
   z-index:-2;
   
 }
@@ -141,7 +146,7 @@ h2{
  border-radius:5px 0px 0px 0;
  height:25px; 
  width:25px;
- margin:-119px 50px 0px 8px;
+ margin:-80px 50px 0px 12px;
  z-index:1; 
 }
 
@@ -152,7 +157,7 @@ h2{
  border-radius:0px 6px 0px 0px;
  height:25px; 
  width:25px;
- margin:-119px 50px 0px 3px;
+ margin:-119px 30px 0px -5px;
  z-index:1; 
 }
 .policeCall{
@@ -162,9 +167,9 @@ h2{
     border-radius:5px;
     border-width: 3px;
     height:55px;
-    width:420px;
+    width:340px;
     position:relative;
-    left:75px;
+    left:110px;
     top:90px;
     z-index:10;
 }
@@ -172,28 +177,28 @@ h2{
     background-color:#091a45;
     font-family: 'Lato', sans-serif;
     color:white;
-    font-size:120%;
+    font-size:70%;
     text-transform: uppercase; 
     text-align:center;
     border-style: inset;
     border-color:#1066a8;
     border-width: 5px;
     position:relative;
-    left:6px;
+    left:5px;
     top:3px;
     height:40px;
-    width:400px;
+    width:325px;
     z-index:15;
 }
 
 small{
-    font-size: 15px;
+    font-size: 8px;
 }
 
 .wrapper {
 	  color:white;
     display: grid;
-    grid-template-columns: 150px 80px 150px;
+    grid-template-columns: 100px 40px 100px;
 	  height:40px;
 
 	}
@@ -210,7 +215,7 @@ small{
     height: 20px;
     text-align: center;
     line-height: 0.4;
-    padding-left: 20px;
+    padding-left: 45px;
 	}
 
 	.boxes {
@@ -218,7 +223,7 @@ small{
 		grid-row: 1 / 3;
     text-align: center;
     padding-top: 5px;
-    padding-left: 20px;
+    padding-left: 80px;
        
 	}
 
@@ -227,7 +232,7 @@ small{
 	    grid-row: 1/3 ;
       text-align: center;
       padding-top: 5px;
-      padding-left: 20px;
+      padding-left: 45px;
     
 	}
 	.calls {
@@ -236,7 +241,7 @@ small{
       height: 20px;
       text-align: center;
       line-height: 0.2;
-      padding-left: 20px;
+      padding-left: 45px;
 
 	}
 
@@ -249,17 +254,17 @@ small{
   border-width: 5px;
   border-radius:6px 0 0 0;
   position:relative;
-  left:0px;
-  top:3px;
-  height:830px;
-  width:50px;
+  left:1px;
+  top:8px;
+  height:800px;
+  width:40px;
   z-index:5px;
 }
 
 .doorContainer{
   position: relative;
   left: 50px; 
-  height:745px;
+  height:500px;
   width:300px;
  
   
@@ -271,11 +276,11 @@ small{
   border-style:  outset;
   border-color:#1066a8;
   float:left;
-  height:741px;
-  width:184px;
+  height:560px;
+  width:140px;
   position:relative;
-  left:50px;
-  top:-740px;
+  left:80px;
+  top:-711px;
  /* margin:11px 0px 0px 65px;*/
 }
 
@@ -284,10 +289,10 @@ small{
   border-style:  outset;
   border-color:white;
   border-width: 3px;
-  margin:30px 8px 8px 30px;
+  margin:30px 8px 8px 25px;
   padding: 5px;
-  width:105px;
-  height:130px; 
+  width:85px;
+  height:100px; 
 }
 .pane1{
   background-color:darkgrey;
@@ -298,8 +303,8 @@ small{
   float: left;
   margin:2px 2px 2px 3px;
   padding:1px ;
-  width:30px;
-  height:60px;   
+  width:18px;
+  height:40px;   
 }
 .pane2{
   background-color:Grey;
@@ -310,14 +315,14 @@ small{
   float: left;
   margin:2px 2px 2px 3px;
   padding:1px ;
-  width:30px;
-  height:60px;     
+  width:18px;
+  height:40px;     
 }
 
 .stJohn{
-  margin:40px 25px;
-  width:60px;
-  height:60px;
+  margin:25px 20px;
+  width:40px;
+  height:40px;
   
 }
 
@@ -326,26 +331,30 @@ small{
   border-style:  inset;
   border-color:#1066a8;
   border-width: 5px;
-  margin:30px 8px 8px 30px;
+  margin:25px 15px 20px 25px;
   padding:0;
-  width:110px;
-  height:140px; 
+  width:85px;
+  height:100px;
 }
 .freeFor{
  background-color:white;
-  font-family:times new roman;
-  font-size:6px;
+  font-family: times new roman;
   text-align:center;
-  margin:5px 5px 5px 5px;
-  padding: 0px;
-  width:105px;
-  height:125px; 
+  margin:0;
+  padding: 0;
+  width:75px;
+  height:90px;
 }
 
 .policeTelephone{
-  font-size:10px;
+  font-size:7px;
+  line-height: 7px;
 }
 
+.policeTelephone small{
+  font-size: 4px;
+
+}
 .inbetween{
   background-color:#0c4f83;
   box-sizing: border-box;
@@ -354,11 +363,12 @@ small{
   border-width: 3px;
   float: left;
   /*margin:-744px 0px 0px 245px;*/
-  height:745px;
+  height:560px;
   width:18px;
   position:relative;
-  left:50px;
-  top:-740px;px
+  left:80px;
+  top:-711px;
+  z-index: 32;
 }
 .rightDoor{
   background-color:#0c4f83;
@@ -368,22 +378,22 @@ small{
   box-sizing: border-box;
   float: left;
  /* margin:-742px 0px 0px 260px;*/
-  height:741px;
-  width:184px;
+  height:560px;
+  width:140px;
   position:relative;
-  left:248px;
-  top:-1485px;px;
+  left:80px;
+  top:-711px;
 }
 .rightWindow{
   background-color:white;
   border-style:  outset;
   border-color:white;
   border-width: 3px;
-  margin:30px 8px 8px 30px;
+  margin:30px 8px 8px 25px;
   padding: 5px;
-  width:105px;
-  height:130px; 
-  padding: 5px;
+  width:85px;
+  height:100px; 
+  
   
 }
 
@@ -395,10 +405,10 @@ small{
   border-width: 5px;
   border-radius:0 6px 0 0;
   position: relative;
-  top:-827px;
-  left: 432px;
-  height:830px;
-  width:50px;
+  top:-760px;
+  left: 378px;
+  height:600px;
+  width:40px;
 
 }
 
