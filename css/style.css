@@ -15,11 +15,21 @@ h2{
   margin: 0 auto
   
 }
+body{
+  background-image: url("https://pm1.narvii.com/5819/5e5f41e74ef996eeb7eaa280875ed6577a665283_hq.jpg");
+  
+}
+
+#guessWho{
+    font-family: 'Karla', sans-serif;
+    color: white;
+}
 
 #tardis{
-
   width: 440px;
-  height: 800px;
+  height: 600px;
+  position: relative ;
+  left: 200px;
 
 }
 
@@ -58,6 +68,7 @@ h2{
   padding-left:5px;
   z-index:10;
 }
+
 .light{
   background-color:white;
   display:block;
@@ -69,6 +80,7 @@ h2{
   width:25px;
   padding-left:5px;
 }
+
 .lightBase{
   background-color:#0c4f83;
   box-sizing: border-box;
@@ -260,7 +272,7 @@ small{
   position:relative;
   left:40px;
   top:-150px;
-  height:640px;
+  height:400px;
   width:40px;
   z-index:5px;
 }
@@ -280,12 +292,12 @@ small{
   border-style:  outset;
   border-color:#1066a8;
   float:left;
-  height:560px;
-  width:140px;
+  height:350px;
+  width:130px;
   position:relative;
   left:80px;
-  top:-711px;
- /* margin:11px 0px 0px 65px;*/
+  top:-500px;
+ 
 }
 
 .leftWindow{
@@ -337,8 +349,8 @@ small{
   border-width: 5px;
   margin:25px 15px 20px 25px;
   padding:0;
-  width:85px;
-  height:100px;
+  width:70px;
+  height:85px;
 }
 .freeFor{
  background-color:white;
@@ -409,9 +421,9 @@ small{
   border-width: 5px;
   border-radius:0 6px 0 0;
   position: relative;
-  top:-790px;
+  top:-550px;
   left: 378px;
-  height:640px;
+  height:400px;
   width:40px;
 
 }
@@ -424,10 +436,10 @@ small{
   border-width: 5px;
   border-radius:6px 6px 0 0;
   position: relative;
-  top:-792px;
+  top:-550px;
   left: 15px;
-  height:35px;
-  width:427px;
+  height:20px;
+  width:420px;
 
 }
 
