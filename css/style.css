@@ -97,12 +97,12 @@ body{
 
 .roofSlant {
 	border-bottom: 60px solid #1066a8;
-	border-left: 165px solid transparent;
-	border-right: 165px solid transparent;
+	border-left: 153px solid transparent;
+	border-right: 153px solid transparent;
 	height: 0;
 	width:0;
   position:relative;
-  top:10px;
+  top:-5px;
   left:118px;
  
 }
@@ -111,10 +111,10 @@ body{
   border-bottom: 2px solid #1066a8;
   display:block;
   height:15px;
-  width:328px;
+  width:310px;
   position:relative;
-  top:10px;
-  left:115px;
+  top:-5px;
+  left:116px;
   z-index:-1;
 }
 #littleBit{
@@ -122,7 +122,7 @@ body{
  border-style:  outset;
  border-color:#1066a8;
  border-radius:5px 0 0 5px;
- height:53px; 
+ height:46px; 
  width:15px;
  margin:23px 0px 0px -20px;
  Z-index:45; 
@@ -132,8 +132,8 @@ body{
 #top{
   background-color: #0c4f83;
   border: 1px solid #1066a8;
-  height:100px;
-  width: 332px;
+  height:97px;
+  width: 305px;
   margin: 20px 0 0 0;
   position:relative;
   top:-25px;
@@ -147,7 +147,7 @@ body{
  border-style:  outset;
  border-color:#1066a8;
  border-radius:0 5px 5px 0;
- height:53px; 
+ height:46px; 
  width:15px;
  margin:20px 0 0 35px;
  Z-index:45;  
@@ -180,11 +180,11 @@ body{
     border-color:#1066a8;
     border-radius:5px;
     border-width: 3px;
-    height:55px;
-    width:340px;
+    height:45px;
+    width:317px;
     position:relative;
     left:110px;
-    top:-70px;
+    top:-80px;
     z-index:10;
 }
 .call{
@@ -200,13 +200,13 @@ body{
     position:relative;
     left:5px;
     top:3px;
-    height:40px;
-    width:325px;
+    height:20px;
+    width:298px;
     z-index:15;
 }
 
 small{
-    font-size: 12px;
+    font-size: 10px;
     text-align: center;
 }
 
@@ -214,7 +214,7 @@ small{
 	  color:white;
     display: grid;
     grid-template-columns: 100px 40px 100px;
-	  height:40px;
+	  height:35px;
 
 	}
 
@@ -227,7 +227,7 @@ small{
 	.public {
 		grid-column: 2 / 3;
 		grid-row: 1;
-    height: 20px;
+    height: 12px;
     text-align: center;
     line-height: 9px;
     padding-left: 40px;
@@ -237,7 +237,7 @@ small{
 		grid-column: 3 ;
 		grid-row: 1 / 3;
     text-align: center;
-    padding-top: 3px;
+    padding-top: 1px;
     padding-left: 80px;
        
 	}
@@ -246,18 +246,18 @@ small{
 	    grid-column: 1 ;
 	    grid-row: 1/3 ;
       text-align: center;
-      padding-top: 3px;
+      padding-top: 1px;
       padding-left: 45px;
     
 	}
 	.calls {
 	    grid-column: 2;
 	    grid-row: 2;
-      height: 20px;
+      height: 12px;
       text-align: center;
       line-height: 0.2;
       padding-left: 45px;
-      padding-bottom: 5px;
+      padding-bottom: px;
 
 	}
 
@@ -272,7 +272,7 @@ small{
   position:relative;
   left:40px;
   top:-150px;
-  height:400px;
+  height:450px;
   width:40px;
   z-index:5px;
 }
@@ -292,11 +292,11 @@ small{
   border-style:  outset;
   border-color:#1066a8;
   float:left;
-  height:350px;
+  height:380px;
   width:130px;
   position:relative;
   left:80px;
-  top:-500px;
+  top:-530px;
  
 }
 
@@ -307,8 +307,8 @@ small{
   border-width: 3px;
   margin:30px 8px 8px 25px;
   padding: 2px;
-  width:85px;
-  height:100px; 
+   width:75px;
+  height:85px;
 }
 .pane1{
   background-color:darkgrey;
@@ -319,8 +319,8 @@ small{
   float: left;
   margin:2px 2px 2px 3px;
   padding:1px ;
-  width:20px;
-  height:41px;   
+  width:16px;
+  height:35px;   
 }
 .pane2{
   background-color:Grey;
@@ -331,14 +331,14 @@ small{
   float: left;
   margin:2px 2px 2px 3px;
   padding:1px ;
-  width:20px;
-  height:40px;     
+  width:16px;
+  height:35px;     
 }
 
 .stJohn{
-  margin:25px 20px;
-  width:40px;
-  height:40px;
+  margin:20px 20px;
+  width:30px;
+  height:30px;
   
 }
 
@@ -349,7 +349,7 @@ small{
   border-width: 5px;
   margin:25px 15px 20px 25px;
   padding:0;
-  width:70px;
+  width:75px;
   height:85px;
 }
 .freeFor{
@@ -358,17 +358,17 @@ small{
   text-align:center;
   margin:0;
   padding: 0;
-  width:75px;
-  height:90px;
+  width:62px;
+  height:75px;
 }
 
 .policeTelephone{
-  font-size:7px;
-  line-height: 7px;
+  font-size:5px;
+  line-height: 6px;
 }
 
 .policeTelephone small{
-  font-size: 4px;
+  font-size: 3px;
 
 }
 .inbetween{
@@ -379,11 +379,11 @@ small{
   border-width: 3px;
   float: left;
   /*margin:-744px 0px 0px 245px;*/
-  height:560px;
+  height:320px;
   width:18px;
   position:relative;
   left:80px;
-  top:-711px;
+  top:-470px;
   z-index: 32;
 }
 .rightDoor{
@@ -393,12 +393,11 @@ small{
   border-color:#1066a8;
   box-sizing: border-box;
   float: left;
- /* margin:-742px 0px 0px 260px;*/
-  height:560px;
-  width:140px;
+  height:380px;
+  width:130px;
   position:relative;
   left:80px;
-  top:-711px;
+  top:-530px;
 }
 .rightWindow{
   background-color:white;
@@ -407,9 +406,8 @@ small{
   border-width: 3px;
   margin:30px 8px 8px 25px;
   padding: 2px;
-  width:85px;
-  height:100px; 
-  
+   width:75px;
+  height:85px;
   
 }
 
@@ -421,9 +419,9 @@ small{
   border-width: 5px;
   border-radius:0 6px 0 0;
   position: relative;
-  top:-550px;
-  left: 378px;
-  height:400px;
+  top:-600px;
+  left: 358px;
+  height:450px;
   width:40px;
 
 }
@@ -436,7 +434,7 @@ small{
   border-width: 5px;
   border-radius:6px 6px 0 0;
   position: relative;
-  top:-550px;
+  top:-600px;
   left: 15px;
   height:20px;
   width:420px;
