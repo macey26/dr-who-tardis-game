@@ -23,6 +23,7 @@ body{
 #guessWho{
     font-family: 'Karla', sans-serif;
     color: white;
+    text-transform: uppercase; 
 }
 
 #tardis{
@@ -35,8 +36,8 @@ body{
 
 #roofTop{
   position:relative;
-  top:50px;
-  left:-16px;
+  top:30px;
+  left:-25px;
   
 }
 
@@ -86,7 +87,7 @@ body{
   box-sizing: border-box;
   border-color:#1066a8;
   display:block;
-  height:15px;
+  height:10px;
   width:30px;
   position:relative;
   top:-30px;
@@ -96,7 +97,7 @@ body{
 
 
 .roofSlant {
-	border-bottom: 60px solid #1066a8;
+	border-bottom: 28px solid #1066a8;
 	border-left: 153px solid transparent;
 	border-right: 153px solid transparent;
 	height: 0;
@@ -160,7 +161,7 @@ body{
  border-radius:5px 0px 0px 0;
  height:22px; 
  width:22px;
- margin:-102px 80px 0px 7px;
+ margin:-95px 80px 0px 7px;
  z-index:1; 
 }
 
@@ -171,7 +172,7 @@ body{
  border-radius:0px 6px 0px 0px;
  height:22px; 
  width:22px;
- margin:-99px 30px 0px 3px;
+ margin:-93px 30px 0px 3px;
  z-index:1; 
 }
 .policeCall{
@@ -271,8 +272,8 @@ small{
   border-radius:6px 0 0 0;
   position:relative;
   left:40px;
-  top:-150px;
-  height:450px;
+  top:-151px;
+  height:498px;
   width:40px;
   z-index:5px;
 }
@@ -292,11 +293,11 @@ small{
   border-style:  outset;
   border-color:#1066a8;
   float:left;
-  height:380px;
+  height:430px;
   width:130px;
   position:relative;
   left:80px;
-  top:-530px;
+  top:-578px;
  
 }
 
@@ -305,10 +306,10 @@ small{
   border-style:  outset;
   border-color:white;
   border-width: 3px;
-  margin:30px 8px 8px 25px;
+  margin:12px 25px 0 20px;
   padding: 2px;
-   width:75px;
-  height:85px;
+   width:83px;
+  height:90px;
 }
 .pane1{
   background-color:darkgrey;
@@ -319,8 +320,8 @@ small{
   float: left;
   margin:2px 2px 2px 3px;
   padding:1px ;
-  width:16px;
-  height:35px;   
+  width:19px;
+  height:36px;   
 }
 .pane2{
   background-color:Grey;
@@ -331,8 +332,8 @@ small{
   float: left;
   margin:2px 2px 2px 3px;
   padding:1px ;
-  width:16px;
-  height:35px;     
+  width:19px;
+  height:36px;     
 }
 
 .stJohn{
@@ -347,10 +348,10 @@ small{
   border-style:  inset;
   border-color:#1066a8;
   border-width: 5px;
-  margin:25px 15px 20px 25px;
+  margin:12px 10px 0 20px ;
   padding:0;
-  width:75px;
-  height:85px;
+ width:83px;
+  height:90px;
 }
 .freeFor{
  background-color:white;
@@ -358,17 +359,18 @@ small{
   text-align:center;
   margin:0;
   padding: 0;
-  width:62px;
-  height:75px;
+  width:73px;
+  height:82px;
 }
 
 .policeTelephone{
-  font-size:5px;
+  padding: 3px 2px 0 2px;
+  font-size:7px;
   line-height: 6px;
 }
 
 .policeTelephone small{
-  font-size: 3px;
+  font-size: 4px;
 
 }
 .inbetween{
@@ -378,12 +380,11 @@ small{
   border-color:#1066a8;
   border-width: 3px;
   float: left;
-  /*margin:-744px 0px 0px 245px;*/
-  height:320px;
+  height:428px;
   width:18px;
   position:relative;
   left:80px;
-  top:-470px;
+  top:-578px;
   z-index: 32;
 }
 .rightDoor{
@@ -393,22 +394,21 @@ small{
   border-color:#1066a8;
   box-sizing: border-box;
   float: left;
-  height:380px;
+  height:430px;
   width:130px;
   position:relative;
   left:80px;
-  top:-530px;
+  top:-578px;
 }
 .rightWindow{
   background-color:white;
   border-style:  outset;
   border-color:white;
   border-width: 3px;
-  margin:30px 8px 8px 25px;
+  margin:12px 25px 0 20px;
   padding: 2px;
-   width:75px;
-  height:85px;
-  
+   width:83px;
+  height:90px;
 }
 
 .rightPillar{
@@ -419,9 +419,9 @@ small{
   border-width: 5px;
   border-radius:0 6px 0 0;
   position: relative;
-  top:-600px;
+  top:-650px;
   left: 358px;
-  height:450px;
+  height:499px;
   width:40px;
 
 }
@@ -434,7 +434,7 @@ small{
   border-width: 5px;
   border-radius:6px 6px 0 0;
   position: relative;
-  top:-600px;
+  top:-650px;
   left: 15px;
   height:20px;
   width:420px;
@@ -442,38 +442,3 @@ small{
 }
 
 
-#color1{
-  background-color:#0c4f83;
-  color:white;
-  display:block;
-  width:60px;
-  height:20px;
-}
-#color2{
-  background-color:#1066a8;
-  color:white;
-  display:block;
-  width:60px;
-  height:20px;
-}
-#color3{
-  background-color:#0c2d4c;
-  display:block;
-  color:white;
-  width:60px;
-  height:20px;
-}
-
-#color4{
-  background-color:#091a45;
-  color:white;
-  display:block;
- width:60px;
-  height:20px;
-}
-#color5{
-  background-color:#1a77ba;
-  color:white;
- width:60px;
-  height:20px;
-}
