@@ -21,16 +21,40 @@ body{
 }
 
 #guessWho{
-    font-family: 'Karla', sans-serif;
-    color: white;
-    text-transform: uppercase; 
+
+position: relative;
+left: 40px;
+top: 40px;
+
 }
+
+#guess{
+  font-family: 'Karla', sans-serif;
+  color: white;
+  text-transform: uppercase; 
+  font-size: 300%;
+  position: relative;
+  left: 10px;
+
+}
+
+#who{
+  font-family: 'Karla', sans-serif;
+  color: white;
+  text-transform: uppercase; 
+  font-size: 350%;
+  position: relative;
+  left: 25px;
+  line-height: 2px;
+}
+
 
 #tardis{
   width: 440px;
   height: 600px;
   position: relative ;
   left: 200px;
+  top: -35px;
 
 }
 
