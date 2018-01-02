@@ -16,8 +16,42 @@ h2{
   
 }
 body{
-  background-image: url("https://pm1.narvii.com/5819/5e5f41e74ef996eeb7eaa280875ed6577a665283_hq.jpg");
+ 
   
+}
+
+#lock{
+  background-color: #e6e6e6;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  top: 120px;
+  left: 40px;
+  border: 2px solid #999999;
+
+}
+
+#outerLock{
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  margin: 1px;
+}
+
+#innerLock{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 1px solid #999999;
+  margin: 17px 10px 2px 10px;
+
+}
+#keyhole{
+  color: #999999;
+  margin: 0 2px 3px 3px;
+  font-size: 9px;
 }
 
 #guessWho{
@@ -30,7 +64,7 @@ top: 40px;
 
 #guess{
   font-family: 'Karla', sans-serif;
-  color: white;
+  color: grey;
   text-transform: uppercase; 
   font-size: 300%;
   position: relative;
@@ -40,7 +74,7 @@ top: 40px;
 
 #who{
   font-family: 'Karla', sans-serif;
-  color: white;
+  color: grey;
   text-transform: uppercase; 
   font-size: 350%;
   position: relative;
