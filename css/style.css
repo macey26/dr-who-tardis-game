@@ -21,39 +21,116 @@ body{
 }
 
 #lock{
-  background-color: #e6e6e6;
-  width: 40px;
-  height: 40px;
+  background-color: #c0c0c0;
+  width: 18px;
+  height: 18px;
   border-radius: 50%;
+  border-style:  outset;
   position: relative;
-  top: 120px;
-  left: 40px;
-  border: 2px solid #999999;
+  top: 56px;
+  left: 2px;
+  border: 1px solid grey;
 
 }
 
 #outerLock{
-  width: 34px;
-  height: 34px;
+  width: 13px;
+  height: 13px;
   border-radius: 50%;
-  border: 1px solid #999999;
-  margin: 1px;
+  border-style:  outset;
+  border: 1px solid grey;
+  margin: 2px;
 }
 
 #innerLock{
-  width: 12px;
-  height: 12px;
+  width: 7px;
+  height: 7px;
   border-radius: 50%;
-  border: 1px solid #999999;
-  margin: 17px 10px 2px 10px;
+  border: 1px solid grey;
+  margin: 8px 5px 4px 4px;
 
 }
+
 #keyhole{
   color: #999999;
-  margin: 0 2px 3px 3px;
+  margin: -1px 1px 1px 2px;
   font-size: 9px;
 }
 
+.doorHandle{
+  position: relative;
+  right:20px;
+
+}
+
+.handle{
+  background-color:#e6e6e6;
+  height: 65px;
+  width: 10px; 
+  border: 1px solid #999999;
+  border-style:  outset;
+  border-radius: 8px;
+  position: relative;
+  top:20px;
+  left:25px;
+}
+
+.gripBit{
+  background-color:  #c0c0c0;
+  border: 1px solid grey;
+  border-style:  outset;
+  border-radius: 8px;
+  height: 38px;
+  position: relative;
+  top:5px;
+  left: 0;
+}
+
+.shimmer{
+      background-color: white;
+      width: 3px;
+      height: 5px;
+      border-radius: 50%;
+      position: relative;
+      top:2px;
+      left:2px;
+}
+
+.screw1{
+  border-radius: 50%;
+  background-color:  #c0c0c0;
+  color: black;
+  border: 1px solid grey;
+  border-style:  outset;
+  height:8px;
+  position: relative;
+  top:3px;
+  font-size: 6px;
+}
+
+.screw2{
+  border-radius: 50%;
+  background-color:  #c0c0c0;
+  color: black;
+  border: 1px solid grey;
+  border-style:  outset;
+  height:8px;
+  position: relative;
+  top:7px;
+  font-size: 6px;
+}
+
+.screw1 p{
+  position: relative;
+  top:-2px;
+  left: 1px;
+}
+
+.screw2 p{
+  position: relative;
+  top:-2px;
+  left: 1px;
+}
 #guessWho{
 
 position: relative;
@@ -167,7 +244,8 @@ top: 40px;
 }
 .roofUnSlant {
 	background-color:#145788;
-  border-bottom: 2px solid #1066a8;
+  border: 2px solid #1066a8;
+  border-style:  outset;
   display:block;
   height:15px;
   width:310px;
@@ -396,9 +474,21 @@ small{
 
 .stJohn{
   margin:20px 20px;
-  width:30px;
-  height:30px;
-  
+  width:35px;
+  height:35px;
+ 
+}
+
+.stJohnPanel{
+  background-color:#0c4f83;
+  border-style:  inset;
+  border-color:#1066a8;
+  border-width: 5px;
+  margin:-54px 10px 0 20px ;
+  padding:0;
+ width:83px;
+  height:90px;
+
 }
 
 .panel1{
