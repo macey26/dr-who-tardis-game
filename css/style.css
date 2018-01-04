@@ -22,39 +22,50 @@ body{
 
 #lock{
   background-color: #c0c0c0;
-  width: 18px;
-  height: 18px;
+  width: 15px;
+  height: 15px;
   border-radius: 50%;
   border-style:  outset;
   position: relative;
-  top: 56px;
+  top: 35px;
   left: 2px;
-  border: 1px solid grey;
+  border: 0.5px solid #333333;
 
 }
 
 #outerLock{
-  width: 13px;
-  height: 13px;
+  width: 11px;
+  height: 11px;
   border-radius: 50%;
   border-style:  outset;
-  border: 1px solid grey;
-  margin: 2px;
+  border: 0.5px solid #333333;
+  margin: 1.5px;
+}
+
+#dot{
+  background-color: white;
+  width: 2px;
+  height: 2px;
+  position: relative;
+  top: -1px;
+  left: 7.5px;
+  border-radius: 50%;
+
 }
 
 #innerLock{
-  width: 7px;
-  height: 7px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
-  border: 1px solid grey;
-  margin: 8px 5px 4px 4px;
+  border: 0.4px solid #333333;
+  margin: 2px 2.3px 5px 2.3px;
 
 }
 
 #keyhole{
-  color: #999999;
-  margin: -1px 1px 1px 2px;
-  font-size: 9px;
+  color: #333333;
+  margin: 0px 3px 1px 2.5px;
+  font-size: 4px;
 }
 
 .doorHandle{
@@ -66,7 +77,7 @@ body{
 .handle{
   background-color:#e6e6e6;
   height: 65px;
-  width: 10px; 
+  width: 9.5px; 
   border: 1px solid #999999;
   border-style:  outset;
   border-radius: 8px;
@@ -81,9 +92,10 @@ body{
   border-style:  outset;
   border-radius: 8px;
   height: 38px;
+  width: 10px;
   position: relative;
   top:5px;
-  left: 0;
+  left: -1px;
 }
 
 .shimmer{
@@ -92,8 +104,8 @@ body{
       height: 5px;
       border-radius: 50%;
       position: relative;
-      top:2px;
-      left:2px;
+      top:3px;
+      left:4px;
 }
 
 .screw1{
@@ -102,9 +114,9 @@ body{
   color: black;
   border: 1px solid grey;
   border-style:  outset;
-  height:8px;
+  height:7px;
   position: relative;
-  top:3px;
+  top:4px;
   font-size: 6px;
 }
 
@@ -114,7 +126,7 @@ body{
   color: black;
   border: 1px solid grey;
   border-style:  outset;
-  height:8px;
+  height:7px;
   position: relative;
   top:7px;
   font-size: 6px;
@@ -484,7 +496,7 @@ small{
   border-style:  inset;
   border-color:#1066a8;
   border-width: 5px;
-  margin:-54px 10px 0 20px ;
+  margin:-65px 10px 0 20px ;
   padding:0;
  width:83px;
   height:90px;
