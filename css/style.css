@@ -16,9 +16,12 @@ h2{
   
 }
 body{
- 
-  
+  background-image: url("images/matt-palmer.jpg");
+
+
 }
+
+
 
 #lock{
   background-color: #c0c0c0;
@@ -143,11 +146,20 @@ body{
   top:-2px;
   left: 1px;
 }
+
+#textWrapper{
+ width:300px;
+ margin: 0;
+}
+
 #guessWho{
 
 position: relative;
 left: 40px;
 top: 40px;
+padding-bottom: 50px;
+font-size: 150%;
+
 
 }
 
@@ -171,13 +183,37 @@ top: 40px;
   line-height: 2px;
 }
 
+#greeting{
+ font-family: 'Karla', sans-serif;
+  color: grey;
+  font-size: 120%;
+  margin: 15px;
+
+}
+
+#question{
+  font-family: 'Karla', sans-serif;
+  color: grey;
+  font-size: 120%;
+  margin: 15px;
+}
+
+#buttons{
+  margin-left: 40px; 
+
+}
+
+.btn{
+  margin: 10px
+}
 
 #tardis{
-  width: 440px;
+  width: 420px;
   height: 600px;
   position: relative ;
-  left: 200px;
-  top: -35px;
+  left: 100px;
+  top: -500px;
+  margin: 0 auto;
 
 }
 
@@ -597,8 +633,7 @@ small{
   top:-650px;
   left: 15px;
   height:20px;
-  width:420px;
-
+  width:410px;
 }
 
 
