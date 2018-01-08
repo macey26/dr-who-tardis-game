@@ -1,5 +1,11 @@
-/*
-	var one = confirm("Did your favorite Doctor grasp his coat collars often?");
+
+//document.getElementById("question").innerHTML = "Hello World!";
+
+question.textContent = "Could this be the first question"
+
+//div.textContent = 'Hello World!'  
+
+	/*var one = confirm("Did your favorite Doctor grasp his coat collars often?");
 
 	if (one ===true){
         
@@ -103,4 +109,5 @@ var two =  confirm("Did he say \'hmm... whats that my boy?\'");
 }
 	
 	}
+
 */
