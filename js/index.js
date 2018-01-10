@@ -1,7 +1,12 @@
 
-//document.getElementById("question").innerHTML = "Hello World!";
+const yes = document.querySelector('#yes');
+yes.addEventListener('click', () => {
 
 question.textContent = "Could this be the first question"
+
+});
+
+//question.textContent = "Could this be the first question"
 
 //div.textContent = 'Hello World!'  
 
