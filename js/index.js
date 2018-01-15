@@ -6,6 +6,43 @@ question.textContent = "Could this be the first question"
 
 });
 
+//Example of a simpler function fthan the one bello
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+ask(
+  "Do you agree?",
+  function() { alert("You agreed."); },
+  function() { alert("You canceled the execution."); }
+);
+
+//Another callback function with more complicated structure
+function ask(question, yes, no) {
+  if (confirm(question)) yes()
+  else no();
+}
+
+function showOk() {
+  alert( "You agreed." );
+}
+
+function showCancel() {
+  alert( "You canceled the execution." );
+}
+
+// usage: functions showOk, showCancel are passed as arguments to ask
+ask("Do you agree?", showOk, showCancel);
+
+//Example of an expression in arrow function let age = prompt("What is your age?", 18);
+
+//let welcome = (age < 18) ?
+  //() => alert('Hello') :
+  //() => alert("Greetings!");
+
+//welcome(); // ok now
+
 //question.textContent = "Could this be the first question"
 
 //div.textContent = 'Hello World!'  
