@@ -5,7 +5,7 @@
 </head>
 <body>
 
-	<p></p>
+	<p id=""></p>
 
 	<div id="buttons">
   <input id="yes" class="btn btn-success" type="button" value="Yes">
@@ -14,6 +14,19 @@
 
 
 	<script type="text/javascript">
+
+let yes = document.querySelector('#yes');
+
+yes.addEventListener('click' , () => {
+  alert("you clicked yes");
+});
+
+let no = document.querySelector('#no');
+
+no.addEventListener('click' , () => {
+  alert("you clicked No");
+});
+
 	/*	 
 		 let doctor = alert("click ok to start");
 
@@ -35,7 +48,8 @@
 		default:alert( "what") ;
 			 }
 			 */
-       
+
+/*
        function firstDoctor(){
              const one = confirm("Did your favorite Doctor grasp his coat collars often?");
        	     if (true){
