@@ -18,7 +18,7 @@
 let yes = document.querySelector('#yes');
 
 yes.addEventListener('click' , () => {
-  alert("you clicked yes");
+  askFirstDoctor();
 });
 
 let no = document.querySelector('#no');
@@ -27,9 +27,9 @@ no.addEventListener('click' , () => {
   alert("you clicked No");
 });
 
-	/*	 
-		 let doctor = alert("click ok to start");
-
+		 
+		// let doctor = alert("click ok to start");
+/*
 		switch(true){
 
 			case confirm("q1"):
@@ -47,76 +47,68 @@ no.addEventListener('click' , () => {
 
 		default:alert( "what") ;
 			 }
-			 */
+			*/ 
+ 
+let askFirstDoctor = () => {
 
-/*
-       function firstDoctor(){
-             const one = confirm("Did your favorite Doctor grasp his coat collars often?");
-       	     if (true){
-       	     	const two =  confirm("Did he say \'hmm... whats that my boy?\'");
-       	     	      if (true){
-       	     	      	confirm ("you said 1");
-       	     	      }else{
-       	     	      	confirm ("try again");
-       	     	      } 
-       	     }else {
-       	     	confirm ("try again");
-       	     }	      
-       };
+	
+    const questionOne = confirm("Did your favorite Doctor grasp his coat collars often?");
 
-      firstDoctor();
+    if (questionOne === true){
 
-      /*
-       
-       function secondDoctor(){
+    const questionTwo =  confirm("Did he say \'hmm... whats that my boy?\'");
 
-       	const three = confirm("blah blah");
-       	     if (true){
-       	     	const q4 = confirm("q6");
-       	     	      if (true){
-       	     	      	confirm ("you said 4");
-       	     	      } else{
-       	     	      	return thirdDoctor(); 
-       	     	      }
+       if ( questionTwo === true){
 
-       	     } else{
+       confirm ("This is the first Doctor, played by William Hartnell. Is this your favorite Doctor?");
 
-       	     	return thirdDoctor(); 
-       	     }
-			 
-			 confirm ("you said 1");
+       	}else{
+
+       	return askSecondDoctor();   
 
 
-       }
+       } 
+    }else{
 
-        secondDoctor();
+    return askSecondDoctor();
 
-       function thirdDoctor(){
+    }	 
 
-       	const three = confirm("blah blah");
-       	     if (true){
-       	     	const q4 = confirm("q6");
-       	     	      if (true){
-       	     	      	confirm ("you said 4");
-       	     	      } else{
-       	     	      	return thirdDoctor(); 
-       	     	      }
 
-       	     } else{
+};
+    
+     console.log(askFirstDoctor());
 
-       	     	return thirdDoctor(); 
-       	     }
-			 
-			 confirm ("you said 1");
-			}
-
-       };
-
-      */
       
-     
+       
+let askSecondDoctor = () => {
 
-			 
+	const firstDoctor = askFirstDoctor();
+
+    const questionThree = confirm("Did your favorite Doctor, play the recorder?");
+
+    if ( questionThree === true){
+
+    const questionFour =  confirm(" \"Butter fingers!\" ");
+
+       if ( questionFour === true){
+
+       confirm ("This is the second Doctor, played by Patrick Troughton. Is this your favorite Doctor");
+
+       	}else{
+
+       	return firstDoctor;
+
+       } 
+    }else{
+
+    return firstDoctor;
+
+    }	      
+};
+       askSecondDoctor(); 
+
+       		 
 	</script>
 
 </body>
