@@ -20,7 +20,7 @@ ask(
 
 //Another callback function with more complicated structure
 function ask(question, yes, no) {
-  if (confirm(question)) yes()
+  if (confirm("Did your favorite Doctor grasp his coat collars often?")) yes()
   else no();
 }
 

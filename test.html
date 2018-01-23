@@ -18,7 +18,7 @@
 let yes = document.querySelector('#yes');
 
 yes.addEventListener('click' , () => {
-  askFirstDoctor();
+  
 });
 
 let no = document.querySelector('#no');
@@ -27,30 +27,8 @@ no.addEventListener('click' , () => {
   alert("you clicked No");
 });
 
-		 
-		// let doctor = alert("click ok to start");
-/*
-		switch(true){
-
-			case confirm("q1"):
-			 confirm("q2");
-			 confirm ("you said 1");
-			   
-			 confirm("q3");
-			 confirm("q4");
-			 confirm( "you said 2 ");
-
-			 confirm("q5");
-			 confirm("q6");
-			 confirm( "you said 5");
-			 break; 
-
-		default:alert( "what") ;
-			 }
-			*/ 
  
 let askFirstDoctor = () => {
-
 	
     const questionOne = confirm("Did your favorite Doctor grasp his coat collars often?");
 
@@ -64,32 +42,26 @@ let askFirstDoctor = () => {
 
        	}else{
 
-       	return askSecondDoctor();   
-
+        askSecondDoctor();
+        alert("Moving to the secondDoctor"); 
 
        } 
     }else{
 
-    return askSecondDoctor();
+    askSecondDoctor();
 
-    }	 
-
+    }	
 
 };
     
-     console.log(askFirstDoctor());
 
-      
-       
 let askSecondDoctor = () => {
-
-	const firstDoctor = askFirstDoctor();
 
     const questionThree = confirm("Did your favorite Doctor, play the recorder?");
 
     if ( questionThree === true){
 
-    const questionFour =  confirm(" \"Butter fingers!\" ");
+    const questionFour =  confirm("Did he say \"Butter fingers!\" in times of crisis");
 
        if ( questionFour === true){
 
@@ -97,17 +69,98 @@ let askSecondDoctor = () => {
 
        	}else{
 
-       	return firstDoctor;
+       	return askThirdDoctor();
 
        } 
     }else{
 
-    return firstDoctor;
+    return askThirdDoctor();
 
-    }	      
+    }	 
+    
 };
-       askSecondDoctor(); 
+     
+     
 
+let askThirdDoctor = () => {
+
+    const questionFive = confirm("Was your favorite Doctor made to stay on earth for the majority of his incarnation?");
+
+    if ( questionFive === true){
+
+    const questionSix=  confirm(" Did he often say \'Reverse the polarity\'");
+
+       if ( questionSix === true){
+
+       confirm ("This is the third Doctor, played by Jon Pertwee. Is this your favorite Doctor?");
+
+       	}else{
+
+       	askFourthDoctor();
+
+       } 
+    }else{
+
+    askFourthDoctor();
+
+    }	 
+
+}; 
+
+let askFourthDoctor = () => {
+
+    const questionSeven = confirm("Did your favorite Doctor wear long scarf?");
+
+    if ( questionSeven === true){
+
+    const questionEight =  confirm("Did he  say \"Would you like a jelly baby?\"");
+
+       if ( questionEight === true){
+
+       confirm ("This is the Fourth Doctor, played by Tom Baker. Is this your favorite Doctor?");
+
+       	}else{
+
+       	askFifthDoctor();
+
+       } 
+    }else{
+
+    askFifthDoctor();
+
+    }	 
+
+}; 
+
+
+let askFifthDoctor = () => {
+
+    const questionNine = confirm("Did your favorite Doctor wear celery on his colar?");
+
+    if ( questionNine === true){
+
+    const questionTen =  confirm("Was he known to say \"Must dash\"");
+
+       if ( questionTen === true){
+
+       confirm ("This is the fifth Doctor, played by Peter Davison. Is this your favorite Doctor?");
+
+       	}else{
+
+       	alert("Moving onto the next one");
+
+       } 
+    }else{
+
+    alert("Moving onto the next one");
+
+    }	 
+
+}; 
+
+
+
+askFirstDoctor();  
        		 
 	</script>
 
