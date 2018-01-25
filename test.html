@@ -35,10 +35,10 @@ let askFirstDoctor = () => {
        if ( questionTwo === true){
          confirm ("This is the first Doctor, played by William Hartnell. Is this your favorite Doctor?");
        	}else{
-          askSecondDoctor(); 
+          askEleventhDoctor(); 
        } 
     }else{
-      askSecondDoctor();
+      askEleventhDoctor(); 
     }	
 
 };
@@ -51,10 +51,11 @@ let askSecondDoctor = () => {
        if ( questionFour === true){
          confirm ("This is the second Doctor, played by Patrick Troughton. Is this your favorite Doctor");
        	}else{
-       	  return askThirdDoctor();
+       	  askFourthDoctor();
        } 
     }else{
-      return askThirdDoctor();
+       askFourthDoctor();
+
     }	  
 };
      
@@ -66,10 +67,10 @@ let askThirdDoctor = () => {
        if ( questionSix === true){
          confirm ("This is the third Doctor, played by Jon Pertwee. Is this your favorite Doctor?");
        	}else{
-       	  askFourthDoctor();
+       	  alert("Ive run out of Questions");
        } 
     }else{
-      askFourthDoctor();
+       alert("Ive run out of Questions");
     }	 
 }; 
 
@@ -81,10 +82,10 @@ let askFourthDoctor = () => {
        if ( questionEight === true){
          confirm ("This is the Fourth Doctor, played by Tom Baker. Is this your favorite Doctor?");
        	}else{
-       	  askFifthDoctor();
+       	  askTwelfthDoctor();
        } 
     }else{
-      askFifthDoctor();
+      askTwelfthDoctor();
     }	 
 
 }; 
@@ -97,10 +98,10 @@ let askFifthDoctor = () => {
        if ( questionTen === true){
          confirm ("This is the fifth Doctor, played by Peter Davison. Is this your favorite Doctor?");
        	}else{
-       	  askSixthDoctor();
+       	  askNinthDoctor();
        } 
     }else{
-      askSixthDoctor();
+      askNinthDoctor();
     }	 
 
 }; 
@@ -113,10 +114,10 @@ let askSixthDoctor = () => {
        if ( questionTwelve === true){
          confirm ("This is the sixth Doctor, played by Colin Baker. Is this your favorite Doctor?");
        	}else{
-       	  askSeventhDoctor();
+       	  askThirdDoctor();
        } 
     }else{
-      askSeventhDoctor();
+      askThirdDoctor();
     }	 
 
 }; 
@@ -144,14 +145,73 @@ let askEighthDoctor = () => {
        if ( questionTwo === true){
          confirm ("This is the Eighth Doctor, played by Paul McGann. Is this your favorite Doctor?");
        	}else{
-       	  alert("Moving onto the next one");
+       	  askTenthDoctor();
        } 
     }else{
-      alert("Moving onto the next one");
+      askTenthDoctor();
     }	 
 
 }; 
 
+
+let askNinthDoctor = () => {
+    const questionOne = confirm("Did your favorite Doctor, wear a leather jacket?");
+    if ( questionOne === true){
+      const questionTwo =  confirm("Was he known to say \"Fantastic\"");
+       if ( questionTwo === true){
+         confirm ("This is the Ninth Doctor, played by Christopher Eccleston. Is this your favorite Doctor?");
+       	}else{
+       	  askEighthDoctor();
+       } 
+    }else{
+      askEighthDoctor();
+    }	 
+
+}; 
+
+let askTenthDoctor = () => {
+    const questionOne = confirm("Did your favorite Doctor wear pinstripes, with spikey hair?");
+    if ( questionOne === true){
+      const questionTwo =  confirm("Was he known to say \"Allons-y!\"");
+       if ( questionTwo === true){
+         confirm ("This is the Tenth Doctor, played by David Tennant. Is this your favorite Doctor?");
+       	}else{
+       	  askSixthDoctor();
+       } 
+    }else{
+      askSixthDoctor();    }	 
+
+}; 
+
+let askEleventhDoctor = () => {
+    const questionOne = confirm("Did your favorite Doctor eat fish fingers and custard?");
+    if ( questionOne === true){
+      const questionTwo =  confirm("Was he known to say \"Ive got new kidneys!!\"");
+       if ( questionTwo === true){
+         confirm ("This is the Twelfth Doctor, played by Peter Capaldi. Is this your favorite Doctor?");
+       	}else{
+       	  askSecondDoctor();
+       } 
+    }else{
+      askSecondDoctor();
+    }	 
+
+}; 
+
+let askTwelfthDoctor = () => {
+    const questionOne = confirm("Did your favorite Doctor play the electric Guitar?");
+    if ( questionOne === true){
+      const questionTwo =  confirm("Did he say \"Bow ties are cool?\"");
+       if ( questionTwo === true){
+         confirm ("This is the Eleventh Doctor, played by Matt Smith. Is this your favorite Doctor?");
+       	}else{
+       	  askFifthDoctor();
+       } 
+    }else{
+      askFifthDoctor();
+    }	 
+
+}; 
 
 
 askFirstDoctor();  
